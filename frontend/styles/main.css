@@ -1,0 +1,554 @@
+/* Header */
+.navbar {
+    position: fixed;
+    width: 100%;
+    z-index: 3;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+
+.navbar-brand {
+    font-family: 'Cantata One';
+    font-weight: 400;
+    font-size: 32px;
+    text-align: center;
+}
+
+.nav-item {
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 18px;
+}
+
+.nav-item .nav-link.active {
+    font-weight: 800;
+    color: #FC1B17 !important;
+}
+
+.nav-link {
+    color: #000000 !important;
+}
+
+.nav-link:hover {
+    color: #FC1B17 !important;
+}
+/* Tutup Header */
+
+/* Code Promo */
+.code-promo {
+    background-color: #000000;
+    text-align: center;
+    padding-bottom: 2px;
+    margin-top: 70px;
+}
+
+.code-promo p {
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 12px;
+
+    color: #FFFFFF;
+}
+
+.code-promo a {
+    font-weight: 500;
+    font-size: 16px;
+    text-decoration: none;
+
+    color: lime;
+    
+}
+/* Tutup Code Promo */
+
+/* Carousel */
+.carousel {
+    background: rgba(23, 25, 56, 0.06);
+}
+
+.carousel .carousel-item-pic .img {
+    width: 60px;
+}
+
+.carousel h1 {
+    font-family: 'Montserrat';
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 65px;
+    
+    text-align: center;
+    color: #9D5B40;
+}
+/* Tutup Carousel */
+
+/* Curated Picks */
+.curated-picks {
+    padding-top: 50px;
+    padding-bottom: 36px;
+
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-size: 28px;
+    text-align: center;
+    color: #000000;
+
+    background: #FFFFFF;
+}
+
+.component-picks {
+    margin-top: 2px;
+    margin-bottom: 36px;
+
+    transition: all 0.2s ease-in-out;
+}
+
+.component-picks-big {
+    margin-left: 106px;
+    margin-top: 2px;
+    margin-bottom: 36px;
+
+    transition: all 0.2s ease-in-out;
+}
+
+.tag {
+    z-index: 3;
+    position: absolute;
+    padding-top: 98px;
+    padding-bottom: 98px;
+    padding-left: 55px;
+    padding-right: 55px;
+    display: flex;
+    
+}
+
+.tag-big {
+    z-index: 3;
+    position: absolute;
+    padding-top: 205px;
+    padding-bottom: 205px;
+    padding-left: 90px;
+    padding-right: 90px;
+    display: flex;
+    
+}
+
+.tag span {
+    font-family: 'Poppins';
+    font-weight: 700;
+    font-size: 30px;
+    text-align: center;
+    display: block;
+    color: #FFFFFF;
+
+}
+
+.tag-big span {
+    font-family: 'Poppins';
+    font-weight: 700;
+    font-size: 30px;
+    text-align: center;
+    display: block;
+    color: #FFFFFF;
+}
+
+.picks-thumbnail {
+    display: flex;
+    width: 100%;
+    height: 288px;
+}
+
+.picks-thumbnail-big {
+    display: flex;
+    width: 100%;
+    height: 497px;
+}
+
+.picks-thumbnail:hover .picks-img {
+    transform: scale(1.1);
+}
+
+.picks-thumbnail-big:hover .picks-img {
+    transform: scale(1.1);
+}
+
+.picks-img {
+    width: 100%;
+    height: 100%;
+    display: block;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    transition: all 0,3s ease;
+}
+
+.picks-img-big {
+    width: 100%;
+    height: 100%;
+    display: block;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    transition: all 0,3s ease;
+}
+
+/* Tutup Curated Picks */
+
+/* Store */
+.store {
+    padding-top: 5px;
+    margin-bottom: 36px;
+}
+
+.store h1 {
+    margin-top: 200px;
+    font-family: 'Corinthia';
+    font-weight: 700;
+    font-size: 70px;
+    text-align: right;
+
+    color: #000000;
+}
+/* Tutup Store */
+
+/* More Inspiration */
+.more-inspiration {
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-size: 28px;
+    text-align: center;
+
+    color: #000000
+}
+
+.more-inspiration-tag {
+    z-index: 3;
+    background-color: #E0DAD2;
+    opacity: 0.5;
+    position: absolute;
+    bottom: 0;
+    width: 255px;
+    height: 70px;
+}
+
+.more-inspiration-tag span {
+    font-family: 'IM FELL French Canon SC';
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 33px;
+    text-align: center;
+
+    color: #000000;
+}
+
+.more-inspiration-tag p {
+    font-family: 'IM FELL French Canon SC';
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+
+    color: #000000;
+}
+
+.more-inspiration-thumbnail {
+    width: 100%;
+    height: 500px;
+}
+
+.more-inspiration-thumbnail:hover .more-inspiration-img {
+    transform: scale(1.1);
+}
+
+.more-inspiration-img {
+    width: 100%;
+    height: 100%;
+
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    transition: all 0.3s ease-in-out;
+}
+/* Tutup More Inspiration */
+
+/* Footer */
+.email-gather h2 {
+    margin-top: 50px;
+    display: block;
+    font-size: 1.5em;
+    font-family: 'Montserrat';
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+.email-gather p {
+    font-family: 'Poppins';
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.email-gather form {
+    display: block;
+    text-align: center;
+}
+
+.email-gather input {
+    border-bottom: 1px solid #000;
+    width: 100%;
+    display: block;
+    padding: 10px;
+    box-sizing: border-box;
+    margin: 40px auto 0 auto;
+    text-align: center;
+    font-size: 16px;
+    color: #000;
+}
+select, input {
+    background: none;
+    border: none;
+    border-radius: 0px;
+    appearance: none !important;
+}
+    background: none;
+    border: none;
+    border-radius: 0px;
+    appearance: none !important;
+}
+
+.email-gather form input {
+    writing-mode: horizontal-tb !important;
+    text-rendering: auto;
+    color: fieldtext;
+    letter-spacing: normal;
+    word-spacing: normal;
+    line-height: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: start;
+    appearance: auto;
+    -webkit-rtl-ordering: logical;
+    cursor: text;
+    background-color: field;
+    margin: 0em;
+    padding: 1px 2px;
+    border-width: 2px;
+    border-style: inset;
+    border-color: -internal-light-dark(rgb(118, 118, 118), rgb(133, 133, 133));
+    border-image: initial;
+}
+
+.email-gather form input type="hidden" {
+    appearance: none;
+    background-color: initial;
+    cursor: default;
+    display: none !important;
+    padding: initial;
+    border: initial;
+    border-color: initial;
+    border-radius: initial;
+}
+
+.email-gather form input type="text" {
+    font-size: 16px;
+    padding: 1px 2px;
+}
+
+.email-gather form input type="submit" {
+    appearance: auto;
+    user-select: none;
+    white-space: pre;
+    align-items: flex-start;
+    text-align: center;
+    cursor: default;
+    box-sizing: border-box;
+    background-color: buttonface;
+    color: buttontext;
+    padding: 1px 6px;
+    border-width: 2px;
+    border-style: outset;
+    border-color: buttonborder;
+    border-image: initial;
+}
+
+.footer-link {
+    display: flex;
+    text-align: left;
+    font-size: 12px;
+    font-family: 'Poppins';
+    margin-top: 50px;
+    margin-left: 150px;
+    margin-right: 100px;
+    text-decoration: none;
+    width: 85%;
+    line-height: 1.8;
+}
+
+.footer-link a {
+    color: #000000;
+    text-decoration: none;
+    display: block;
+}
+
+.berrybenka-app {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.berrybenka-app h1 {
+    text-align: center;
+    font-size: 24px;
+    letter-spacing: 3px;
+    margin-bottom: 20px;
+    margin: 0 !important;
+}
+
+.berrybenka-app p {
+    margin: 5px 0 20px 0;
+    font-style: italic;
+}
+
+.berrybenka-app a {
+    width: 94px;
+}
+
+.berrybenka-app a img {
+    width: 100px;
+    display: block;
+    width: 100%;
+    max-width: 100%;
+    border-radius: 9px;
+    margin-bottom: 30px;  
+}
+
+.support {
+    background: #000;
+    color: #fff;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    padding: 25px 20px;
+    margin-top: 50px;
+}
+
+.support .social {
+    color: #fff;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    width: 50%;
+    border-right: 1px solid #fff;
+}
+
+.support .social a {
+    color: #fff;
+    margin-right: 5px;
+    margin-left: 5px;
+    font-size: 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.support .social a svg {
+    color: #ffffff;
+    text-decoration: none;
+    display: inline-block;
+    width: 20px;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+.support .cod {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+    width: 50%;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+
+.support .cod a {
+    color: #ffffff;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    margin-left: 20px;
+    font-size: 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.support .cod a img {
+    width: 20px;
+    margin-right: 5px;
+    margin-left: 15px;
+}
+
+.bottom-footer {
+    background-color: #ffffff;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    padding: 20px 40px;
+    width: 100%;
+    border-top: 1px solid#dedede;
+}
+
+.footer-left {
+    font-family: 'Poppins';
+    font-size: 12px;
+}
+
+.washare svg {
+    color: #FFFFFF;
+    text-decoration: none;
+    display: inline-block; 
+}
+
+.washare span {
+    text-decoration: none;
+    display: inline-block; 
+    color: #000000;
+}
+/* Tutup Footer */
